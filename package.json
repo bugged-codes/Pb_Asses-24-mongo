@@ -1,0 +1,38 @@
+{
+  "name": "24-mongo-3",
+  "version": "1.0.0",
+  "description": "3rd Handson mongodb course to understand the use and implementation of moongose.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugged-codes/Pb_Asses-24-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "node",
+    "database",
+    "apicreation",
+    "api",
+    "mongoose"
+  ],
+  "author": "vipul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugged-codes/Pb_Asses-24-mongo/issues"
+  },
+  "homepage": "https://github.com/bugged-codes/Pb_Asses-24-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
